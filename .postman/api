@@ -1,0 +1,16 @@
+id = e45fef99-f91b-4a9f-b0e0-945efa73a7bd
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"petstor.json","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
+rootFiles[] = petstor.json
