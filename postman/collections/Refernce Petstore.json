@@ -2877,9 +2877,33 @@
 			"id": "65bea2ad-9ce2-4e83-bb5e-d1ec6e64367b"
 		}
 	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "f1712b9e-b378-49c2-837e-9b1eaeda8d64",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "b2fa9682-0f37-4dd3-b1f3-82a84d2cd3d1",
+				"type": "text/javascript",
+				"exec": [
+					"pm.test(\"Status code is 200\", function () {",
+					"    pm.response.to.have.status(200);",
+					"});"
+				]
+			}
+		}
+	],
 	"variable": [
 		{
-			"id": "ff3098b8-9be8-4745-8eac-82a0657c06e7",
+			"id": "11b2378d-178a-4786-a794-d15acde3632a",
 			"key": "baseUrl",
 			"value": "/api/v3",
 			"type": "string"
