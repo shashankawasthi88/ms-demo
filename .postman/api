@@ -1,15 +1,17 @@
-id = e45fef99-f91b-4a9f-b0e0-945efa73a7bd
+id = 7e6cfed9-47a2-4707-b893-22c9777765b3
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"23234629-ce63c6be-713f-465b-9dbe-2f7d97e51926","path":"Reference Collection.json","metaData":{}}
 files[] = {"id":"23234629-b351152d-4f01-4f49-b954-af021111f45f","path":"Refernce Petstore.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index.json","metaData":{}}
 files[] = {"path":"petstor.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
